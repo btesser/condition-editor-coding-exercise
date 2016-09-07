@@ -1,0 +1,8 @@
+{
+  "generator-react-webpack": {
+    "appName": "conditionEditorCodingExercise",
+    "style": "scss",
+    "postcss": true,
+    "generatedWithVersion": 3
+  }
+}
