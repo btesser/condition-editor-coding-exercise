@@ -209,6 +209,16 @@ export const OPERATORS = [
 export function getOperators() {
   return OPERATORS;
 }
+
+export function getOperator(id) {
+  for (let i in OPERATORS) {
+    const operator = OPERATORS[i];
+
+    if (operator.id === id) {
+      return operator;
+    }
+  }
+}
 export function getProperties() {
   return PROPERTIES;
 }

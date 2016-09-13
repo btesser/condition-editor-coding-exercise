@@ -2,7 +2,7 @@ require('normalize.css/normalize.css');
 require('styles/App.css');
 
 import React from 'react';
-import DataTable from './DataTable.js';
+import DataTable from './DataTable/DataTable.js';
 let yeomanImage = require('../images/yeoman.png');
 
 class AppComponent extends React.Component {
